@@ -5,7 +5,6 @@ html, body {
 }
 
 body {
-	background-color: black;
 	padding: 1px; /*avoid collapsing margins*/
 }
 
