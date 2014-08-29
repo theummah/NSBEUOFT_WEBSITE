@@ -8,13 +8,50 @@ body {
 	padding: 1px; /*avoid collapsing margins*/
 }
 
+.left {
+	float: left;
+}
 .navbar {
 	width: 100%;
 }
 
 #header {
+	position: relative;
 	top: 0;
 	margin: 0;
-	background-color: black;
-	height: 3em;
+	background-color: #343434;
+	height: 13em;
+}
+
+#title {
+	position: relative;
+	margin: 0 auto;
+	width: 75%;
+	text-align: center;
+	font-size: 2em;
+	color: #FFF;
+}
+
+.tweb_font {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#social {
+	width 75%;
+	margin 0 auto;
+	height: 20%;
+	font-size 3em;
+	color: #FFF;
+}
+.social_media {
+	position: relative;
+	height: 20px;
+	width: 20px;
+	margin-left: 20px;
+	border-width: 1px;
+	border-color: #000;
+	background-color: #000;
+	border-radius: 50%;
+	padding: 0.1em;
+	font-size: 1em;
 }
