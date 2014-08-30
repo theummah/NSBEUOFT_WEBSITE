@@ -30,7 +30,7 @@ body {
 	text-align: center;
 	font-size: 2em;
 	color: #FFF;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Roboto Slab', sans-serif;
 }
 
 #social {
@@ -110,7 +110,16 @@ i.fa-instagram:hover {
 	transform: scale(1.05);
 }
 
-#nsbe_uoft_logo img{
+#nsbe_national_logo {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 110px;
+	height: 114.5px;
+}
+
+#nsbe_uoft_logo img, #nsbe_national_logo img {
+	/*set images to fit dimensions of div*/
 	height: 100%;
 	width: 100%;
 }
