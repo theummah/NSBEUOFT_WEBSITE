@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-	padding: 1px; /*avoid collapsing margins*/
+	/*padding: 1px;*/ /*avoid collapsing margins*/
 }
 
 .left {
@@ -30,9 +30,6 @@ body {
 	text-align: center;
 	font-size: 2em;
 	color: #FFF;
-}
-
-.tweb_font {
 	font-family: 'Titillium Web', sans-serif;
 }
 
@@ -90,4 +87,30 @@ i.fa-facebook:hover {
 
 i.fa-instagram:hover {
 	background-color: #663300;
+}
+
+#nsbe_uoft_logo {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 131.75px;
+	height: 106px;
+	-moz-transition: transform 0.25s;
+	-ms-transition: transform 0.25s;
+	-o-transition: transform 0.25s;
+	-webkit-transition: transform 0.25s;
+	transition: transform 0.25s;
+}
+
+#nsbe_uoft_logo:hover {
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+#nsbe_uoft_logo img{
+	height: 100%;
+	width: 100%;
 }
