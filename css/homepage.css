@@ -15,7 +15,7 @@ h1 {
 .left {
 	float: left;
 }
-.navbar {
+.bar {
 	width: 100%;
 }
 
@@ -134,4 +134,20 @@ i.fa-instagram:hover {
 	/*set images to fit dimensions of div*/
 	height: 100%;
 	width: 100%;
+}
+
+#navigate li {
+	float: left;
+	line-height: 1em;
+	font-size: 1em;
+	margin-left: 20px;
+	color: #F00;
+}
+
+#navlist {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto Slab', sans-serif;
+	margin-top: 0.25em;
 }
