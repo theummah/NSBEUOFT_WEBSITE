@@ -45,12 +45,12 @@ h1 {
 	height: 20%;
 	color: #FFF;
 	width: 100%;
+	cursor: auto;
 }
 
 .social_media {
 	position: relative;
 	font-size: 1em;
-	cursor: auto;
 }
 
 .social_media i
@@ -139,7 +139,15 @@ i.fa-youtube:hover {
 	width: 100%;
 }
 
-#navigate li {
+#navlist {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto Slab', sans-serif;
+	margin-top: 0.25em;
+}
+
+#navlist li {
 	float: left;
 	line-height: 1em;
 	font-size: 1em;
@@ -147,10 +155,7 @@ i.fa-youtube:hover {
 	color: #F00;
 }
 
-#navlist {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	font-family: 'Roboto Slab', sans-serif;
-	margin-top: 0.25em;
+#navlist li:hover {
+	font-weight: 700;
+	cursor: pointer;
 }
