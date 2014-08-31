@@ -108,6 +108,14 @@ i.fa-vine:hover {
 	background-color: #00A478;
 }
 
+i.fa-google-plus:hover {
+	background: -moz-linear-gradient(#F2B50F, #0266C8, #F90101, #00933B); /* For Firefox 3.6 to 15 */
+	background: -ms-linear-gradient(#F2B50F, #0266C8, #F90101, #00933B); /* For Firefox 3.6 to 15 */
+	background: -o-linear-gradient(#F2B50F, #0266C8, #F90101, #00933B); /* For Opera 11.1 to 12.0 */
+	background: -webkit-linear-gradient(#F2B50F, #0266C8, #F90101, #00933B); /* For Safari 5.1 to 6.0 */
+	background: linear-gradient(#F2B50F, #0266C8, #F90101, #00933B); /* Standard syntax */
+}
+
 #nsbe_uoft_logo {
 	position: fixed;
 	top: 0;
