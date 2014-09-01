@@ -125,19 +125,19 @@ i.fa-google-plus:hover {
 }
 
 .nsbe_logos {
-	-moz-transition: transform 0.25s;
-	-ms-transition: transform 0.25s;
-	-o-transition: transform 0.25s;
-	-webkit-transition: transform 0.25s;
-	transition: transform 0.25s;
+	-moz-transition: transform .1s;
+	-ms-transition: transform .1s;
+	-o-transition: transform .1s;
+	-webkit-transition: transform .1s;
+	transition: transform .1s;
 }
 
 .nsbe_logos:hover {
-	-moz-transform: scale(1.05);
-	-ms-transform: scale(1.05);
-	-o-transform: scale(1.05);
-	-webkit-transform: scale(1.05);
-	transform: scale(1.05);
+	-moz-transform: scale(1.025);
+	-ms-transform: scale(1.025);
+	-o-transform: scale(1.025);
+	-webkit-transform: scale(1.025);
+	transform: scale(1.025);
 }
 
 #nsbe_national_logo {
