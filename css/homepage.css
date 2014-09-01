@@ -10,10 +10,6 @@ body {
 	/*padding: 1px;*/ /*avoid collapsing margins*/
 }
 
-h1 {
-	top-margin: 1em;
-}
-
 .left {
 	float: left;
 }
@@ -38,7 +34,7 @@ h1 {
 	font-size: 2em;
 	color: #000;
 	font-family: 'Roboto Slab', sans-serif;
-	padding-top: 1em;
+	padding-top: 2.25em;
 }
 
 #social {
@@ -241,7 +237,7 @@ i.fa-google-plus:hover {
 
 #footer {
 	height: 3em;
-	line-height: 1.5em;
+	line-height: 1em;
 	clear: both;
 	background-color: #F00;
 	color: #FFF;
