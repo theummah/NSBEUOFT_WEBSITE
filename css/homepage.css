@@ -142,10 +142,12 @@ i.fa-google-plus:hover {
 
 #nsbe_national_logo {
 	position: fixed;
-	top: 0;
-	right: 0;
-	width: 101.2px;
-	height: 106px;
+	top: 5px;
+	right: 5px;
+	/*width: 101.2px;
+	height: 106px;*/
+	width: 63px;
+	height: 66px;
 }
 
 #nsbe_uoft_logo img, #nsbe_national_logo img {
