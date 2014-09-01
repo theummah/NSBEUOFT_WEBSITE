@@ -214,3 +214,27 @@ i.fa-google-plus:hover {
 .sidenav li {
 	margin-top: 1em;
 }
+
+#sponsorship {
+	font-weight: 700;
+}
+
+.diamond {
+	color: #0F52BA;
+}
+
+.platinum {
+	color: #BDBDBF;
+}
+
+.gold {
+	color: #FFD700;
+}
+
+.silver {
+	color: #BBB;
+}
+
+.bronze {
+	color: #A57164;
+}
