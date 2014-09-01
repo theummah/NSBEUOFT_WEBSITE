@@ -1,6 +1,9 @@
 $(document).ready(function(){
+
 	$("#navlist").on("click", "li", function(){
-		$("#navlist").find("li").removeClass("navlist_select");
+		//find navLinks with a class of navlist_select
+		$("#navlist").find("li.navlist_select")
+			.removeClass("navlist_select");
 		$(this).addClass("navlist_select");
 	});
 });
