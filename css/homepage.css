@@ -178,11 +178,12 @@ i.fa-google-plus:hover {
 #topnav li:hover {
 	font-weight: 700;
 	cursor: pointer;
+	color: #00F;
 }
 
-.topnav_select {
+#topnav .topnav_select {
 	font-weight: 700;
-	color: blue;
+	color: #00F;
 }
 
 /*styling for side navigation bar begins here*/
