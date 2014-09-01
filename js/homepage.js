@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	//calculate side bar height
-	var sideBarHeight = $(window).height() - $("#header").outerHeight() - $("#footer").outerHeight();
+	var sideBarHeight = $(window).height() - $("#header").outerHeight() - $("#topbar").outerHeight() - $("#footer").outerHeight();
 	$("#sidebar").css("min-height", sideBarHeight);
 
 	//initially highlight the home nav option when page loads
