@@ -74,11 +74,11 @@ h1 {
     -webkit-box-shadow: 0px 0px 2px #888;
     box-shadow: 0px 0px 2px #888;
 	text-align: center;
-	-moz-transition: background-color .5s;
-	-ms-transition: background-color .5s;
-	-o-transition: background-color .5s;
-	-webkit-transition: background-color .5s;
-	transition: background-color .5s ease-in;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	-webkit-transition: all .5s;
+	transition: all .5s ease-in;
 	cursor: pointer;
 	text-decoration: none !important;
 	color: #FFF;
@@ -107,8 +107,8 @@ i.fa-youtube:hover {
 i.fa-vine:hover {
 	background-color: #00A478;
 }
-
 i.fa-google-plus:hover {
+	
 	background: -moz-linear-gradient(#F2B50F, #0266C8, #F90101, #00933B); /* For Firefox 3.6 to 15 */
 	background: -ms-linear-gradient(#F2B50F, #0266C8, #F90101, #00933B); /* For Firefox 3.6 to 15 */
 	background: -o-linear-gradient(#F2B50F, #0266C8, #F90101, #00933B); /* For Opera 11.1 to 12.0 */
