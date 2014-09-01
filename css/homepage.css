@@ -159,15 +159,19 @@ i.fa-google-plus:hover {
 	width: 100%;
 }
 
-#navlist {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	font-family: 'Roboto Slab', sans-serif;
-	margin-top: 0.5em;
+#topbar {
+	border-bottom: 2px solid #F00;
+	height: 1.5em;
 }
 
-#navlist li {
+#topnav {
+	list-style-type: none;
+	padding: 0;
+	margin: 0.5em 0 0 0;
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+#topnav li {
 	float: left;
 	line-height: 1em;
 	font-size: 1em;
@@ -175,12 +179,35 @@ i.fa-google-plus:hover {
 	color: #F00;
 }
 
-#navlist li:hover {
+#topnav li:hover {
 	font-weight: 700;
 	cursor: pointer;
 }
 
-.navlist_select {
+.topnav_select {
 	font-weight: 700;
 	color: blue;
+}
+
+/*styling for side navigation bar begins here*/
+#sidebar {
+	position: relative;
+	width: 20%;
+	border-right: 2px solid #F00;
+}
+
+.sidenav {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	font-size: 1.25em;
+	color: #F00;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidenav li {
+	margin-top: 1em;
 }
