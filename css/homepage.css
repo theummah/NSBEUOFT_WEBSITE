@@ -23,7 +23,7 @@ h1 {
 	position: relative;
 	top: 0;
 	margin: 0;
-	background-color: #343434;
+	background-color: #646464;
 	height: 13em;
 }
 
@@ -122,6 +122,9 @@ i.fa-google-plus:hover {
 	left: 0;
 	width: 131.75px;
 	height: 106px;
+}
+
+.nsbe_logos {
 	-moz-transition: transform 0.25s;
 	-ms-transition: transform 0.25s;
 	-o-transition: transform 0.25s;
@@ -129,7 +132,7 @@ i.fa-google-plus:hover {
 	transition: transform 0.25s;
 }
 
-#nsbe_uoft_logo:hover {
+.nsbe_logos:hover {
 	-moz-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	-o-transform: scale(1.05);
@@ -141,8 +144,8 @@ i.fa-google-plus:hover {
 	position: fixed;
 	top: 0;
 	right: 0;
-	width: 110px;
-	height: 114.5px;
+	width: 101.2px;
+	height: 106px;
 }
 
 #nsbe_uoft_logo img, #nsbe_national_logo img {
