@@ -178,3 +178,8 @@ i.fa-google-plus:hover {
 	font-weight: 700;
 	cursor: pointer;
 }
+
+.navlist_select {
+	font-weight: 700;
+	color: blue;
+}
