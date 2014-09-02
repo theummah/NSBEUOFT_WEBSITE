@@ -156,7 +156,7 @@ i.fa-google-plus:hover {
 }
 
 #topbar {
-	border-bottom: 2px solid #F00;
+	border-bottom: 2px solid #C51F21;
 	height: 1.5em;
 }
 
@@ -172,7 +172,7 @@ i.fa-google-plus:hover {
 	line-height: 1em;
 	font-size: 1em;
 	margin-left: 20px;
-	color: #F00;
+	color: #C51F21;
 }
 
 #topnav li:hover {
@@ -190,7 +190,7 @@ i.fa-google-plus:hover {
 #sidebar {
 	position: relative;
 	width: 20%;
-	border-right: 2px solid #F00;
+	border-right: 2px solid #C51F21;
 	font-family: 'Roboto Slab', sans-serif;
 	text-align: center;
 }
@@ -200,7 +200,7 @@ i.fa-google-plus:hover {
 	display: none;
 	top: 0;
 	font-size: 1.25em;
-	color: #F00;
+	color: #C51F21;
 	list-style-type: none;
 	margin: 0 auto;
 	left: 0;
@@ -240,7 +240,7 @@ i.fa-google-plus:hover {
 	height: 3em;
 	line-height: 1.5em;
 	clear: both;
-	background-color: #F00;
+	background-color: #C51F21;
 	color: #FFF;
 	/*border-top: 2px solid #F00;*/
 	text-align: center;
