@@ -181,6 +181,11 @@ i.fa-google-plus:hover {
 	color: #00F;
 }
 
+#topnav li a {
+	text-decoration: none;
+	color: #C51F21;
+}
+
 #topnav .topnav_select {
 	font-weight: 700;
 	color: #00F;
