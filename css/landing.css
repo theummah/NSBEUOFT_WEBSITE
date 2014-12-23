@@ -1,0 +1,56 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #222;
+}
+
+#nav_menu {
+	position: absolute;
+	left: 5%;
+	margin-top: 10%;
+	margin-right: 5%;
+	height: 12em;
+	width: 8em;
+	color: #FFF;
+	font-family: 'VT323', arial;
+	font-size: 1.10em;
+}
+
+.menu_item {
+	position: relative;
+	border-bottom: 1px solid #FFF;
+}
+
+.menu_link {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.popout_panel {
+	position: absolute;
+	display: none;
+	left: 8em;
+	top: 0;
+	width: 10em;
+}
+
+.popout_panel ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.popout_panel ul li {
+	transition: all .3s ease-in-out;
+}
+
+.popout_panel ul li:hover {
+	color: #000;
+	background-color: #FFF;
+	cursor: pointer;
+}
