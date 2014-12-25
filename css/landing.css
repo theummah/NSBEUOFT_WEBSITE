@@ -6,7 +6,34 @@ html, body {
 }
 
 body {
-	background-color: #222;
+	background-color: #000;
+    color: #FFF;
+}
+
+#logo_transparent {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    width: 66.25px;
+    height: 75.75px;
+    -moz-transition: transform 0.025s ease-in-out;
+    -ms-transition: transform 0.025s ease-in-out;
+    -o-transition: transform 0.025s ease-in-out;
+    -webkit-transition: transform 0.025s ease-in-out;
+    transition: transform 0.025s ease-in-out;
+}
+
+#logo_transparent:hover {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.title {
+    text-align: center;
+    font-family: 'VT323', sans-serif;
 }
 
 #nav_menu {
@@ -31,12 +58,27 @@ body {
 	color: #FFF;
 }
 
+.menu_item:first-child::before {
+	content: "\f0a4";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #F00;
+    position: absolute;
+    left: -20px;
+}
+
+.menu_item.move_hand:first-child::before {
+    left: -25px;
+}
+
 .popout_panel {
 	position: absolute;
 	display: none;
 	left: 8em;
 	top: 0;
-	width: 10em;
+	width: 11em;
 }
 
 .popout_panel ul {
@@ -45,7 +87,12 @@ body {
 	padding: 0;
 }
 
+
 .popout_panel ul li {
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 }
 
@@ -53,4 +100,29 @@ body {
 	color: #000;
 	background-color: #FFF;
 	cursor: pointer;
+}
+
+.platinum {
+    color: #E6E6E6;
+}
+
+.gold {
+    color: #FFFF33;
+}
+
+.silver {
+    color: #CCCCFF;
+}
+
+.bronze {
+    color: #B56C47;
+}
+
+.fall::before {
+    content: "\f06c";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #F00;
 }
