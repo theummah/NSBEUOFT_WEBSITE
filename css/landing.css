@@ -126,3 +126,11 @@ body {
     text-decoration: inherit;
     color: #F00;
 }
+
+#main_content {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    height: 65%;
+    width: 75%;
+}
