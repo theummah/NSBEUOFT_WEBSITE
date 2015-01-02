@@ -75,10 +75,12 @@ body {
 
 .popout_panel {
 	position: absolute;
+    z-index: 1;
 	display: none;
 	left: 10em;
 	top: 0;
 	width: 12em;
+    background-color: #000;
 }
 
 .popout_panel ul {
@@ -89,6 +91,8 @@ body {
 
 
 .popout_panel ul li {
+    margin: 0;
+    padding: 1px;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -129,6 +133,7 @@ body {
 
 #main_content {
     position: absolute;
+    z-index: 0;
     text-align: center;
     top: 30%;
     left: 20%;
@@ -136,6 +141,24 @@ body {
     width: 75%;
     overflow: scroll;
     font-family: 'Lato', arial;
+}
+
+#main_content::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #000;
+}
+
+#main_content::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #FFF;
+}
+
+#main_content::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #FFF;
 }
 
 .text_left {
