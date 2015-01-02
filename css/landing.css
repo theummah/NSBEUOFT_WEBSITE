@@ -33,7 +33,7 @@ body {
 
 .title {
     text-align: center;
-    font-family: 'VT323', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 #nav_menu {
@@ -42,10 +42,10 @@ body {
 	margin-top: 10%;
 	margin-right: 5%;
 	height: 12em;
-	width: 8em;
+	width: 10em;
 	color: #FFF;
-	font-family: 'VT323', arial;
-	font-size: 1.10em;
+	font-family: 'Lato', arial;
+	font-size: 1em;
 }
 
 .menu_item {
@@ -76,9 +76,9 @@ body {
 .popout_panel {
 	position: absolute;
 	display: none;
-	left: 8em;
+	left: 10em;
 	top: 0;
-	width: 11em;
+	width: 12em;
 }
 
 .popout_panel ul {
@@ -129,8 +129,22 @@ body {
 
 #main_content {
     position: absolute;
+    text-align: center;
     top: 30%;
     left: 20%;
     height: 65%;
     width: 75%;
+    overflow: scroll;
+    font-family: 'Lato', arial;
+}
+
+.text_left {
+    text-align: left;
+}
+
+#board_NCBP {
+    position: relative;
+    height: 360px;
+    width: 360px;
+    margin: 0 auto;
 }

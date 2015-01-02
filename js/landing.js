@@ -3,7 +3,7 @@ $(document).ready(function() {
     handAnimation = setInterval(function(){$('.menu_item:first-child').toggleClass('move_hand');}, 250);
 
     //
-    $('#nav_menu').on('mousenter', function(){
+    $('#nav_menu').on('mouseenter', function(){
         clearInterval(handAnimation);
     });
 
